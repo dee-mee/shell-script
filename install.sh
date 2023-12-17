@@ -42,7 +42,7 @@ echo "========================================="
 
 echo "			"
 sleep 2
-
+# I have used snap version as the apt version is currently not stable in ubuntu
 apt update && apt -y upgrade && snap install vlc && apt install -y htop && snap install whatsapp-for-linux
 
 sleep 2
@@ -54,7 +54,7 @@ echo "			"
 echo "lets continue"
 
 sleep 2
-
+#net-tools enable you to run commnads like ifconfig
 apt install -y net-tools && apt install -y neofetch 
 
 clear
@@ -63,6 +63,9 @@ neofetch
 
 sleep 2
 
+#cowsay is a fun way of terminal cool tricks that displays whatever you type in it.
+#sl is a display of a moving train or steam locomotive which
+#can be used with many options available on its manpage.
 apt install -y cowsay && apt install -y sl
 
 clear 
@@ -98,5 +101,4 @@ else
 	echo "  	"
 	echo "use 'sudo su' command to enter as root."
 fi
-
-reboot
+init 6
