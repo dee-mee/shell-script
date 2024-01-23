@@ -1,8 +1,8 @@
 This is a script that works on ubuntu fresh 
 install systems which contains
 only basic software installations.
-Its assumed that you know how to run scripts using the terminal.
-if not first change the script to executable:
+
+first change the script to executable:
 
       chmod +x install.sh
 
@@ -18,7 +18,7 @@ the examples of the packages are :
       #sl
       #cowsay
       #net-tools
-looking to create more scripts which will evntually be repetitive background processes 
+looking to create more scripts which will eventually be repetitive background processes 
 without much interaction from the user.
 
 
