@@ -1,6 +1,5 @@
-This is a script that works on ubuntu fresh 
-install systems which contains
-only basic software installations.
+This is a script that works on mostly on ubuntu fresh 
+systems which contains only basic software installations.
 
 first change the script to executable:
 
