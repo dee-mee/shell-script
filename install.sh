@@ -45,7 +45,7 @@ echo "========================================="
 echo "			"
 sleep 2
 # I have used snap version as the apt version is currently not stable in ubuntu
-apt update && apt -y upgrade && snap install vlc && apt install -y htop && snap install whatsapp-for-linux
+apt update && apt -y upgrade && snap install vlc && apt install -y htop && apt install git
 
 sleep 2
 
