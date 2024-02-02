@@ -1,5 +1,6 @@
-This is a script that works on mostly on ubuntu fresh 
-systems which contains only basic software installations.
+This is a script that works on mostly on ubuntu 
+systems as some packages to be installed are snaps.
+It contains only basic software installations.
 
 first change the script to executable:
 
