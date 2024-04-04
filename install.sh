@@ -20,7 +20,7 @@ echo "Welcome to Ubuntu Fresh install. I am gonna install all the required packa
 
 sleep 2
 
-echo "so I assume you have more than 1 gigabyte of data for this process."
+echo "you should have a strong and stable network connection for this installation."
 echo " 					"
 sleep 2
 echo "loading.."
@@ -68,11 +68,9 @@ sleep 2
 #cowsay is a fun way of terminal cool tricks that displays whatever you type in it.
 #sl is a display of a moving train or steam locomotive which
 #can be used with many options available on its manpage.
-apt install -y cowsay && apt install -y sl
+apt install -y xcowsay && apt install -y sl && apt install cowsay
 
-clear 
-
-cowsay "you asleep or just watching"
+xcowsay "you asleep or just watching"
 
 sleep 2
 
