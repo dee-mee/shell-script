@@ -70,12 +70,6 @@ sleep 2
 #can be used with many options available on its manpage.
 apt install -y xcowsay && apt install -y sl && apt install cowsay
 
-xcowsay "you asleep or just watching"
-
-sleep 2
-
-cowthink "i think i will just continue byee---" 
-
 sleep 2
 
 clear
