@@ -8,7 +8,6 @@ developer=dee-mee
 case $1 in
 -h | --help)
 	echo "$program $version"
-	echo "Copyright $year $developer. All rights reserved."
 	echo
 	echo "Usage: weather [options]"
 	echo "Option          Long Option             Description"
