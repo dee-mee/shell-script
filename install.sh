@@ -45,7 +45,7 @@ echo "========================================="
 echo "			"
 sleep 2
 # I have used snap version as the apt version is currently not stable in ubuntu
-apt update && apt -y upgrade && snap install vlc && apt install -y htop && apt install git
+apt update && apt -y upgrade && apt install vlc && apt install -y htop && apt install git
 
 sleep 2
 
@@ -57,20 +57,26 @@ echo "lets continue"
 
 sleep 2
 #net-tools enable you to run commnads like ifconfig
-apt install -y net-tools && apt install -y neofetch 
+
+apt install -y net-tools && apt install -y neofetch && apt install pip -y
+
+apt install docker-compose -y
+
+snap install telegram-desktop && snap install whatsapp-for-linux
 
 clear
-
-neofetch 
 
 sleep 2
 
 #cowsay is a fun way of terminal cool tricks that displays whatever you type in it.
 #sl is a display of a moving train or steam locomotive which
 #can be used with many options available on its manpage.
+
 apt install -y xcowsay && apt install -y sl && apt install cowsay
 
 sleep 2
+
+snap install pycharm-community --classic
 
 clear
 
@@ -82,7 +88,15 @@ echo "						"
 echo "========================================="
 
 echo "						"
+sudo apt install curl
 
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+sudo apt update
+
+sudo apt install brave-browser
 echo "The pc is going to reboot in 5 secs to stop press control + c"
 
 sleep 5
